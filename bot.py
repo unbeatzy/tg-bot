@@ -2,7 +2,7 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler, CallbackContext
 
 # Ваш токен от BotFather
-TOKEN = '7215705705:AAEQC_1bgG5pVqoDoDFVD89MCFIvgkQhhg4'
+TOKEN = 'YOUR_API_KEY'
 
 async def start(update: Update, context: CallbackContext) -> None:
     keyboard = [
